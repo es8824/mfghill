@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Hillstead MFG</title>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hillstead - Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="scripts/menu.js" defer></script>
+
     </head>
+    <body>
+        <div class="container">
 
-    <body>  
-        <header>   
-            <nav>  
-                <figure class="topleft">       
-                    <a href="index.html"><img height="150" width="300" src="images/logoB.webp" alt="Hillstead"></a>
-                    <figcaption class="logosub">Quality - Integrity - Vision - Community</figcaption>
-                </figure>  
-                <div class="topright">  
-                    <img height="40" width="400" src="images/placeHolder.png" alt="Place Holder for Search Bar">
-                    <p class="navlinks">   
-                        <a href="#">Shop</a> | 
-                        <a href="#">Gallery</a> | 
-                        <a href="#">About Us</a> | 
-                        <a href="contact.html">Contact</a>   
-                    </p>    
-                </div>  
-            </nav>
-        </header>
+            <header>
+                <a href="index.html" class="txtlogo">Hillstead</a>
+
+                <nav>                    
+                    <img src="images/xbutton.png" alt="Menu Close Button" class="close">
+                    <ul>
+                        <li class="one"><a href="products.html">Products</a></li>                    
+                        <li class="two"><a href="about.html">About</a></li>                    
+                        <li class="three"><a href="contact.html">Contact</a></li>                    
+                    </ul>
+                </nav> 
+
+                <img src="images/menu-icon.svg" alt="Expandable Menu" class="menu">
+            </header>
             
-        <main>
-            <section class="center">
-                <h2>Welcome To</h2>
-                <img height="150" width="300" src="images/logoA.png" alt="Hillstead Manufacturing">
+            <section class="hero">
+
+                <h1>Welcome to</h1>
+                <figure>
+                    <img src="images/logo.svg" alt="Hillstead Logo" class="logo"> 
+                    <figcaption class="sub-motto">Quality - Integrity - Vision - Community</figcaption>
+                </figure>
+                <img src="images/scroll.png" alt="Continue Scrolling" class="scroll">
+                <div class="main">
+                    <h2 class="main-txt">Bringing you premium quality at affordable prices, right here in the USA.</h2>
+                    <img src="images/measure.webp" alt="measuring" class="main-img">
+                </div>
             </section>
 
-            <section style="text-align:center">
-                <h3>Handcrafted in the USA with Premium Quality and Superior Craftsmanship</h3>
-                <nav>
-                    <div>
-                        <div class="left">
-                            <div class="container">
-                                <img height="150" width="250" src="images/furnitureLink1.png" alt="Click Here to Shop Our" class="image">
-                                <a href="#">
-                                    <div class="overlay"> 
-                                        <p class="text">Children's <br> Furniture</p> 
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="left">
-                            <div class="container">
-                                <img height="150" width="250" src="images/accentLink1.png" alt="Click Here to Shop Our" class="image">
-                                <a href="#">
-                                    <div class="overlay"> 
-                                        <p class="text">Accent <br> Furniture</p> 
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="left">
-                            <div class="container">
-                                <img height="150" width="250" src="images/maskLink1.png" alt="Click Here to Shop Our" class="image">
-                                <a href="#">
-                                    <div class="overlay"> 
-                                        <p class="text">Face <br> Shields</p> 
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+            <h1 class="desc-header">Our Products</h1>
+            <section class="descriptions">
+                <div class="product">
+                    <div class="info">
+                        <h2>Children's Furniture</h2>
+                        <p class="desc-product">Lorem ipsum dolor sit amet consectetur adipisicing elit. Durable, functional and comfortable for the little ones!</p>
                     </div>
-                </nav>
+                    <img src="images/descimg-chair.png" alt="chair" class="prodpic">
+                </div>
+                <div class="product reverse">
+                    <div class="info">
+                        <h2>Ottomans & Accent Pieces</h2>
+                        <p class="desc-product">Lorem ipsum dolor sit amet consectetur adipisicing elit. Created by craftsman of the local Community.</p>
+                    </div>
+                    <img src="images/descimg-accent.png" alt="ottoman" class="prodpic">
+                </div>
+                <div class="product">
+                    <div class="info">
+                        <h2>Protective Face Shields</h2>
+                        <p class="desc-product">Lorem ipsum dolor sit amet consectetur adipisicing elit. Made with Domestically Produced Materials!</p>
+                    </div>
+                    <img src="images/descimg-mask.png" alt="person making a mask " class="prodpic end">
+                </div>
             </section>
-        </main>
+        </div>
+        <footer>
+            <p class="cc">2023 Hilstead Manufacturing LLC</p>
+        </footer>
     </body>
-
 </html>

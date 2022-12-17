@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Hillstead MFG - Get in Touch</title>
-        <link rel="stylesheet" type="text/css" href="css/contacts.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hillstead - About Us</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/about.css">
+        <script src="scripts/menu.js" defer></script>
+
     </head>
+    <body>
+        <div class="container">
 
-    <body>  
-        <header>   
-            <nav>  
-                <figure class="topleft">       
-                    <a href="index.html"><img height="150" width="300" src="images/logoB.webp" alt="Hillstead"></a>
-                    <figcaption class="logosub">Quality - Integrity - Vision - Community</figcaption>
-                </figure>  
-                <div class="topright">  
-                    <img height="40" width="400" src="images/placeHolder.png" alt="Place Holder for Search Bar">
-                    <p class="navlinks">   
-                        <a href="#">Shop</a> | 
-                        <a href="#">Gallery</a> | 
-                        <a href="#">About Us</a> | 
-                        <a href="contacts.html">Contact</a>   
-                    </p>    
-                </div>  
-            </nav>
-        </header>
-        
-        <h1 class="center">CONTACT</h1>
-        <h2 class="centersub">Contact us using one of the methods below to inquire about our services</h2>
+            <header>
+                <a href="index.html" class="txtlogo">Hillstead</a>
 
-        <main>
-            <div id="contact-area" class="leftside">
-			
-                <form>
-                    <label for="Name">Name:</label>
-                    <input type="text" name="Name" id="Name" />
-                    
-                    <label for="phone">Phone:</label>
-                    <input type="text" name="phone" id="phone" />
-        
-                    <label for="Email">Email:</label>
-                    <input type="text" name="Email" id="Email" />
-                    
-                    <label for="Message">Message:</label><br />
-                    <textarea name="Message" rows="12" cols="12" id="Message"></textarea>
-    
-                    <input type="submit" name="submit" value="Submit" class="submit-button" />
-                </form>                            
-            </div>
-            <div id="direct-contact-info" class="rightside">
-                <h3>Buisiness Owner 1</h3>
-                <h4>(555)-555-5555</h4>
-                <h3>Buisiness Owner 2</h3>
-                <h4>(555)-555-5555</h4>
-                <h5>HillsteadMfg@email.com <br> 123456 Street Address Ct. <br> City, AL 43210</h5>
-            </div>
-        </main>
+                <nav id="nav">                    
+                    <img src="images/xbutton.png" alt="Menu Close Button" class="close">
+                    <ul>
+                        <li class="one"><a href="products.html">Products</a></li>                    
+                        <li class="two"><a href="about.html">About</a></li>                    
+                        <li class="three"><a href="contact.html">Contact</a></li>                    
+                    </ul>
+                </nav> 
+
+                <img src="images/menu-icon.svg" alt="Expandable Menu" class="menu">
+            </header>
+            
+            <p class="title">About Us</p>
+            <p class="sub-motto">Quality - Integrity - Vision - Community</p>
+            <p class="pre">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maxime, eveniet voluptates dolorem ratione ipsa praesentium voluptate esse commodi repudiandae.</p>
+
+            <section class="fgp">
+
+                <div class="guide">
+                    <h2 class="principals">Quality</h2>
+                    <p class="text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maxime, eveniet voluptates dolorem ratione ipsa praesentium voluptate esse commodi repudiandae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maxime, eveniet voluptates dolorem ratione ipsa praesentium voluptate esse commodi repudiandae?</p>
+
+                </div>
+                <div class="guide">
+                    <h2 class="principals">Integrity</h2>
+                    <p class="text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maxime, eveniet voluptates dolorem ratione ipsa praesentium voluptate esse commodi repudiandae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maxime, eveniet voluptates dolorem ratione ipsa praesentium voluptate esse commodi repudiandae?</p>
+
+                </div>
+                <div class="guide">
+                    <h2 class="principals">Community</h2>
+                    <p class="text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maxime, eveniet voluptates dolorem ratione ipsa praesentium voluptate esse commodi repudiandae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maxime, eveniet voluptates dolorem ratione ipsa praesentium voluptate esse commodi repudiandae?</p>
+
+                </div>
+
+                <div class="guide end">
+                    <h2 class="principals">Vision</h2>
+                    <p class="text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maxime, eveniet voluptates dolorem ratione ipsa praesentium voluptate esse commodi repudiandae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maxime, eveniet voluptates dolorem ratione ipsa praesentium voluptate esse commodi repudiandae?</p>
+                </div>
+                
+
+            </section>       
+           
+        <footer>
+            <p class="cc">2023 Hilstead Manufacturing LLC</p>
+        </footer>
     </body>
-
 </html>
